@@ -75,7 +75,7 @@ const NavBar = () => {
                     
                     {/* Social Icons */}
                     <Link
-                        href="/resume.pdf"
+                        href="https://drive.google.com/file/d/18KyYXpD4-hp-DipA101HCeYLiBdXQ9Y5/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="View Resume"
@@ -87,7 +87,7 @@ const NavBar = () => {
                     </Link>
                     
                     <Link
-                        href="https://github.com/"
+                        href="https://github.com/sehajmakkar"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="GitHub Profile"
@@ -99,7 +99,7 @@ const NavBar = () => {
                     </Link>
                     
                     <Link
-                        href="https://x.com/"
+                        href="https://x.com/sehajmakkarr"
                         target="_blank"
                         rel="noopener noreferrer" 
                         aria-label="X (Twitter) Profile"
@@ -111,7 +111,7 @@ const NavBar = () => {
                     </Link>
                     
                     <Link
-                        href="https://linkedin.com/in/"
+                        href="https://linkedin.com/in/sehajmakkar/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LinkedIn Profile"
