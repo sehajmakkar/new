@@ -8,8 +8,13 @@ import {
     SiTailwindcss,
     SiTypescript,
     SiWebgl,
-    SiZig
+    SiZig,
+    SiMongodb,
+    SiJavascript,
+    SiExpress,
+    SiGooglegemini  
 } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 import {IconType} from "react-icons";
 
 export type ProjectProps = {
@@ -28,28 +33,28 @@ export type ProjectProps = {
 export const projects = [
     {
         id: 0,
-        name: "Eldora UI",
+        name: "ChronosAI",
         description:
-            "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiFramer],
-        techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
+            "an AI-powered collaborative coding platform that transforms ideas into working code and project structures with simple commands.",
+        technologies: [SiReact, FaNodeJs, SiMongodb, SiTailwindcss, SiExpress],
+        techNames: ["ReactJS", "NodeJS", "MongoDB", "Tailwind CSS", "ExpressJS"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
-        github: "https://github.com/karthikmudunuri/eldoraui",
-        demo: "https://www.eldoraui.site/",
-        image: "/projects/eldoraui.png",
+        github: "https://github.com/sehajmakkar/ChronosAI",
+        demo: "https://chronos-ai-seven.vercel.app/",
+        image: "/projects/chronosai.png",
         available: true,
     },
     {
         id: 1,
-        name: "VR MALL",
+        name: "DocTime",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
-        technologies: [SiWebgl,SiTypescript, SiReact],
-        techNames: ["WebGL", "Typescript", "React"],
-        techLinks: ["https://get.webgl.org/", "https://www.typescriptlang.org/", "https://reactjs.org/"],
-        github: "https://github.com/karthikmudunuri/VRMALL",
-        demo: "https://vrmalldemo.netlify.app/",
-        image: "/projects/vrmall.png",
+            "MERN-based healthcare platform for doctor search, appointment scheduling, and secure payments with RBAC and dashboards for patients, doctors, and admins.",
+            technologies: [SiReact, SiJavascript, SiMongodb, SiTailwindcss, SiExpress],
+            techNames: ["ReactJS", "Javascript", "MongoDB", "Tailwind CSS", "ExpressJS"],
+            techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
+            github: "https://github.com/sehajmakkar/DocTime",
+        demo: "https://doc-time-rust.vercel.app/",
+        image: "/projects/doctime.png",
         available: true,
     },
 ];

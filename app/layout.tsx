@@ -11,14 +11,12 @@ const syne = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
-    title: "Portfolio template - Eldora UI",
+    title: "Sehaj Makkar",
     description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+    "I am a Frontend Developer, and I love to create beautiful and functional web applications.",
     generator: "Next.js",
     applicationName: "Portfolio template",
     keywords: [
-        "Portfolio template",
-        "Eldora UI",
         "React",
         "developer",
         "frontend",
@@ -41,17 +39,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio template - Eldora UI",
+        title: "Sehaj Makkar  - Portfolio ",
         description:
-      "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        url: "https://www.eldoraui.site/",
-        siteName: "www.eldoraui.site",
+      "I am a Frontend Developer, and I love to create beautiful and functional web applications.",
+        url: "https://www.sehajmakkar.xyz",
+        siteName: "www.sehajmakkar.xyz",
         images: [
             {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "Sehaj Makkar - Portfolio",
             },
         ],
         locale: "en-US",
@@ -59,10 +57,10 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Portfolio template - Eldora UI",
+        title: "Sehaj Makkar - Portfolio",
         description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        creator: "@karthikmudunuri",
+      "I am a Frontend and Full Stack Developer, and I love to create beautiful and functional web applications.",
+        creator: "@sehajmakkar",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
     },
