@@ -27,14 +27,14 @@ const About = () => {
                         <AnimatedBody
                             delay={0.1}
                             text={<>
-                                I thrive in collaborative environments as the <span className="font-bold text-green-400">Technical Head at Mindflare</span>, MAIT's official I.T. society. My passion for innovation has led to multiple <span className="font-bold underline decoration-purple-400 underline-offset-2">hackathon victories</span>, including <span className="font-bold">1st place at Hackaccino 3.0 - AIML</span> competing against 250+ teams. I've solved <span className="font-bold">400+ DSA problems</span> and am constantly seeking opportunities to expand my technical horizons.
+                                I thrive in collaborative environments as the <span className="font-bold text-green-400">Technical Head at Mindflare</span>, MAIT&apos;s official I.T. society. My passion for innovation has led to multiple <span className="font-bold underline decoration-purple-400 underline-offset-2">hackathon victories</span>, including <span className="font-bold">1st place at Hackaccino 3.0 - AIML</span> competing against 250+ teams. I&apos;ve solved <span className="font-bold">400+ DSA problems</span> and am constantly seeking opportunities to expand my technical horizons.
                             </>}
                         />
                         
                         <AnimatedBody
                             delay={0.2}
                             text={<>
-                                Currently <span className="font-bold text-red-400">seeking Summer 2025 internship opportunities</span> in software development. Previously, I interned at <span className="font-bold">Drizzy</span> as a Frontend Developer Intern, where I worked closely with the founder to implement interactive frontend and 3D models using React Fiber and Three.js. <span className="font-bold">Let's connect and build something amazing together!</span>. 
+                                Currently <span className="font-bold text-red-400">seeking Summer 2025 internship opportunities</span> in software development. Previously, I interned at <span className="font-bold">Drizzy</span> as a Frontend Developer Intern, where I worked closely with the founder to implement interactive frontend and 3D models using React Fiber and Three.js. <span className="font-bold">Let&apos;s connect and build something amazing together!</span>
                             </>}
                         />
                     </div>
