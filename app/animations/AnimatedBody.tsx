@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, ReactNode } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 type AnimatedBodyProps = {
-  text: string;
+  text: string | ReactNode;
   className?: string;
   delay?: number;
 };
@@ -47,7 +47,7 @@ export default function AnimatedBody({
 
     return (
         <motion.p
-            aria-label={text}
+            aria-label={typeof text === 'string' ? text : 'Animated text'}
             role="heading"
             className={className}
             ref={ref}
