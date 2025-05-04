@@ -11,8 +11,7 @@ import {
     SiZig,
     SiMongodb,
     SiJavascript,
-    SiExpress,
-    SiGooglegemini  
+    SiExpress, 
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import {IconType} from "react-icons";
