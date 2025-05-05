@@ -34,7 +34,7 @@ const About = () => {
                         <AnimatedBody
                             delay={0.2}
                             text={<>
-                                Currently <span className="font-bold text-red-400">seeking Summer 2025 internship opportunities</span> in software development. Previously, I interned at <span className="font-bold">Drizzy</span> as a Frontend Developer Intern, where I worked closely with the founder to implement interactive frontend and 3D models using React Fiber and Three.js. <a href="#contact" className="font-bold underline text-blue-500 hover:text-blue-400 transition-colors">Reach out today</a> and let's build something amazing together!
+                                Currently <span className="font-bold text-red-400">seeking Summer 2025 internship opportunities</span> in software development. Previously, I interned at <span className="font-bold">Drizzy</span> as a Frontend Developer Intern, where I worked closely with the founder to implement interactive frontend and 3D models using React Fiber and Three.js. <a href="#contact" className="font-bold underline text-blue-500 hover:text-blue-400 transition-colors">Reach out today</a> and let&apos;s build something amazing together!
                             </>}
                         />
                     </div>
