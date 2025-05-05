@@ -13,9 +13,14 @@ export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
     title: "Sehaj Makkar",
     description:
-    "I am a Frontend Developer, and I love to create beautiful and functional web applications.",
+    "I am a Full Stack Developer, and I love to create beautiful and functional web applications.",
     generator: "Next.js",
-    applicationName: "Portfolio template",
+    applicationName: "Portfolio",
+    icons: {
+        icon: "./favicon.png",
+        shortcut: "./favicon.png",
+        apple: "./favicon.png",
+    },
     keywords: [
         "React",
         "developer",
@@ -41,7 +46,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Sehaj Makkar  - Portfolio ",
         description:
-      "I am a Frontend Developer, and I love to create beautiful and functional web applications.",
+      "I am a Full Stack Developer, and I love to create beautiful and functional web applications.",
         url: "https://www.sehajmakkar.xyz",
         siteName: "www.sehajmakkar.xyz",
         images: [
@@ -59,8 +64,8 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Sehaj Makkar - Portfolio",
         description:
-      "I am a Frontend and Full Stack Developer, and I love to create beautiful and functional web applications.",
-        creator: "@sehajmakkar",
+      "I am a Full Stack Developer, and I love to create beautiful and functional web applications.",
+        creator: "@sehajmakkarr",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
     },
