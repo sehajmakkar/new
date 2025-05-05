@@ -1,6 +1,7 @@
 "use client";
 import React, {useState} from "react";
 import { useEffectOnce, useEventListener } from 'usehooks-ts';
+import { Analytics } from "@vercel/analytics/react"
 
 import PreLoader from "./components/other/PreLoader";
 import useBlobity from "./components/blobity/useBlobity";
@@ -56,6 +57,7 @@ export default function Home() {
 
     return (
         <>
+            <Analytics/>
             <PreLoader />
             <Blur />
             <Color />
