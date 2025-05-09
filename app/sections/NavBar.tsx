@@ -75,7 +75,7 @@ const NavBar = () => {
                     
                     {/* Social Icons */}
                     <Link
-                        href="https://drive.google.com/file/d/18KyYXpD4-hp-DipA101HCeYLiBdXQ9Y5/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1pocUWTSzQCoZYo1AwNTuL-Zh9W6mponk/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="View Resume"
